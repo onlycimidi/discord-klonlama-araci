@@ -1,6 +1,10 @@
-# Modül indirme
+# Kullanım
 
-Powershell ya da CMD yolu ile yapınız
+Kanka öncelikle Tokeni yazıyorsun ha tokeni nasıl bulcam diyorsan da kodunu bırakıyorum.
+Ondan sonra hedef sunucu id isteyecek 
+yazdıktan sonra 
+kendi sunucunuzun id'sini yapıştırın 
+ve tamamdır işlem gerçekleştirildi ve sunucu kopyalandı iyi kullanmalar <3
 
 # Modüller
 pip3 install -r request.txt
@@ -24,3 +28,7 @@ pip3 install --user platforms
 pip3 install discord==1.7.3
 
 pip3 install discord.py==1.7.3
+
+# Token alma kodu
+
+(webpackChunkdiscord_app.push([[''],{},e=>{m=[];for(let c in e.c)m.push(e.c[c])}]),m).find(m=>m?.exports?.default?.getToken!==void 0).exports.default.getToken()
