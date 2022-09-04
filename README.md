@@ -29,7 +29,7 @@ pip3 install discord==1.7.3
 
 pip3 install discord.py==1.7.3
 
-#Çalıştırma kodu
+# Çalıştırma kodu
 python main.py
 
 # Token alma kodu
