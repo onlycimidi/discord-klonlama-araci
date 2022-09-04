@@ -35,3 +35,7 @@ python main.py
 # Token alma kodu
 
 (webpackChunkdiscord_app.push([[''],{},e=>{m=[];for(let c in e.c)m.push(e.c[c])}]),m).find(m=>m?.exports?.default?.getToken!==void 0).exports.default.getToken()
+
+# Açılmama gibi durumlarda ne yapılmalı?
+
+Eğer modülleri kurup python main.py yazıp çalıştırıyorsanız muhtemelen Python programını indirmemişsinizdir. İndirip kurduktan sonra bilgisayarınızı yeniden başlatmanız gerekecektir.
