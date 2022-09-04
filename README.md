@@ -29,6 +29,9 @@ pip3 install discord==1.7.3
 
 pip3 install discord.py==1.7.3
 
+#Çalıştırma kodu
+python main.py
+
 # Token alma kodu
 
 (webpackChunkdiscord_app.push([[''],{},e=>{m=[];for(let c in e.c)m.push(e.c[c])}]),m).find(m=>m?.exports?.default?.getToken!==void 0).exports.default.getToken()
