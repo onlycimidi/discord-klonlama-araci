@@ -19,7 +19,7 @@ print(f"""{Fore.RED}
 ██║  ██╗╚██████╔╝██║  ██║╚██████╔╝███████╗╚██████╔╝   ██║   ╚██████╔╝██║  ██║
 ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝ ╚═════╝ ╚══════╝ ╚═════╝    ╚═╝    ╚═════╝ ╚═╝  ╚═╝
 
-                   unknownCMD - Biz bu sporu yapıyoruz kankam <3
+                   cimidi - Biz bu sporu yapıyoruz kankam <3
 {Style.RESET_ALL}
         """)
 def install_from_file(file_name):
