@@ -1,33 +1,11 @@
 # Kullanım
+Burayı güncelledim artık modül kurarken sıkıntı yaşamazsınız. Modülleri Python dosyasına göre tanımladım.
 
-Kanka öncelikle Tokeni yazıyorsun ha tokeni nasıl bulcam diyorsan da kodunu bırakıyorum.
-Ondan sonra hedef sunucu id isteyecek 
-yazdıktan sonra 
-kendi sunucunuzun id'sini yapıştırın 
-ve tamamdır işlem gerçekleştirildi ve sunucu kopyalandı iyi kullanmalar <3
+# Python Sürüm
+Python sürümününüz son sürüm değil 3.11 olması gerekmektedir.
 
-# Modüller
-pip3 install -r request.txt
 
-pip3 install --user psutil
-
-pip3 install --user pypresence
-
-pip3 install --user time
-
-pip3 install --user sys
-
-pip3 install --user discord
-
-pip3 install --user asyncio
-
-pip3 install --user colorama
-
-pip3 install --user platforms
-
-pip3 install discord==1.7.3
-
-pip3 install discord.py==1.7.3
+# Python Kurarken PATH seçeneğini aktif edin.
 
 # Çalıştırma kodu
 python main.py
