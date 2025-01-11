@@ -203,10 +203,6 @@ class Clone:
                 icon_image = None
             await guild_to.edit(name=f'{guild_from.name}')
             if icon_image is not None:
-                try:
-                    await guild_to.edit(icon=icon_image)
-                    print_add(f"Sunucu Simgesi Değiştirildi: {guild_to.name}")
-                except:
                     print_error(f"Sunucu Simgesini Değiştirirken Hata: {guild_to.name}")
         except discord.Forbidden:
             print_error(f"Sunucu Simgesini Değiştirirken Hata: {guild_to.name}")

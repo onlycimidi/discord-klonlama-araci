@@ -1,14 +1,26 @@
 import subprocess
-import colorama
-from colorama import Fore, init, Style
-from os import system
 import platform
+from os import system
+
+# colorama'yı yükleme kontrolü
+try:
+    import colorama
+    from colorama import Fore, init, Style
+except ModuleNotFoundError:
+    print("colorama modülü bulunamadı, yükleniyor...")
+    subprocess.run(["pip", "install", "colorama"])
+    import colorama
+    from colorama import Fore, init, Style
+
+# İşletim sistemine göre ekranı temizle
 os = platform.system()
 if os == "Windows":
     system("cls")
 else:
     system("clear")
     print(chr(27) + "[2J")
+
+# Başlık yazısı
 print(f"""{Fore.RED}
 
 
@@ -22,6 +34,8 @@ print(f"""{Fore.RED}
                    cimidi - Biz bu sporu yapıyoruz kankam <3
 {Style.RESET_ALL}
         """)
+
+# request.txt dosyasından modülleri yükleme fonksiyonu
 def install_from_file(file_name):
     with open(file_name, 'r') as file:
         modules = file.readlines()
